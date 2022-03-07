@@ -56,7 +56,7 @@ func main() {
 
 	firstIndex := kmpSearch.FindPatternIndex(list)
 	fmt.Printf("Index: %d\n", firstIndex)
-	fmt.Printf("List: %v\n", []string(list[firstIndex:firstIndex+len(pattern)]))
+	fmt.Printf("List: %v\n", list[firstIndex:firstIndex+len(pattern)])
 }
 ```
 
